@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
+/* main is the Entry point */
 /* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -18,9 +19,9 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else 
+	else
 	{
-		printf("%d is equale to zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
