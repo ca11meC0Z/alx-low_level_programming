@@ -7,12 +7,16 @@
  */
 int main(void)
 {
-	int d;
 	char s;
-	double t;
+	int d;
+	long int l;
+	long long int e;
+	float f;
 
-	printf("The size of an integer is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of a character is: %lu.\n", (unsigned long)sizeof(s));
-	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(t));
+	printf("The size of a char is: %lu byte(s).\n", (unsigned long)sizeof(s));
+	printf("The size of an int is: %lu byte(s).\n", (unsigned long)sizeof(d));
+	printf("The size of a long int is: %lu byte(s).\n", (unsigned long)sizeof(l));
+	printf("The size of a long long int is: %lu byte(s).\n", (unsigned long)sizeof(e));
+	printf("The size of a float is: %lu byte(s).\n", (unsigned long)sizeof(f));
 	return (0);
 }
