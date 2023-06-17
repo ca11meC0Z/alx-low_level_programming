@@ -7,13 +7,13 @@
 int main(void)
 {
 	char hex;
-	int dis;
+	int dec;
 
-	for (dis = '0'; dis <= '9'; dis++)
+	for (dec = '0'; dec <= '9'; dec++)
 	{
-		putchar(dis);
+		putchar(dec);
 	}
-	for (hex = 'A'; hex <= 'F'; hex++)
+	for (hex = 'a'; hex <= 'f'; hex++)
 	{
 		putchar(hex);
 	}
