@@ -6,11 +6,11 @@
  **/
 int _isalpha(int c)
 {
-	if (c <= 122 && c >= 97)
+	if (c > 64 && c < 91)
 	{
 		return (1);
 	}
-	else if (c <= 65 && c >= 90)
+	else if (c > 96 && c < 123)
 	{
 		return (1);
 	}
