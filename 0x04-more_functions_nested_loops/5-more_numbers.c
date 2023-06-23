@@ -9,11 +9,14 @@ void more_numbers(void)
 
 	for (y = 1; y <= 10; y++)
 	{
-		for (x = 0; x <= 14; x++)
+		for (x = 0; x <= 10; x++)
 		{
+			if (x == 10)
+			{
+				_putchar(1011121314 + 48);
+			}
 			_putchar(x + 48);
 		}
-	_putchar(y + 48);
-	_putchar('\n');
+	_putchar((y + 48)'\n');
 	}
 }
