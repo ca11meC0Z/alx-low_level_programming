@@ -2,12 +2,12 @@
 
 /**
  * get_nodeint_at_index - returns a node with an index in a list.
- * @list_head: pointer to the head node in the list.
+ * @head: pointer to the head node in the list.
  * @index: index of the desired node.
  *
  * Return: either a node of a list, or NULL.
  **/
-listint_t *get_nodeint_at_index(listint_t *list_head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
 	listint_t *temp = head;
