@@ -4,9 +4,8 @@
 /**
  * print_listint - prints all the elements of a list.
  * @h: pointer to the head node of the list.
- *
- * Return: The number of nodes.
- */
+ * Return: the number of nodes.
+ **/
 size_t print_listint(const listint_t *h)
 {
 	size_t num = 0;
@@ -17,6 +16,5 @@ size_t print_listint(const listint_t *h)
 		num++;
 		h = h->next;
 	}
-
 	return (num);
 }
