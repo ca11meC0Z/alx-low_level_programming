@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * add_nodeint - adds a new node at the beginning oo a list.
- * @head: pointers to the pointer of the first node in the list.
+ * @head: pointer to the pointer to the first node in the list.
  * @n: data to be inserted in the new node.
- * Return: pointer to the new  address of the new element, or NULL if it failed.
+ * Return: pointer to the new element, or NULL if it failed.
  **/
 listint_t *add_nodeint(listint_t **head, const int n)
 {
