@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * pop_listint - deletes the head node of a list.
- * @head: pointer to the pointer to the head node of the list.
- * Return: data inside the element that was deleted, or 0 .
+ * @head: pointer to the pointer to the head node.
+ * Return: data inside the deleted element, or 0 .
  **/
 int pop_listint(listint_t **head)
 {
