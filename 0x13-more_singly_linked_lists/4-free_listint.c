@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * free_listint - frees a list.
- * @list_head: pointer to the head node of the list.
+ * @head: pointer to the head node of the list.
  **/
-void free_listint(listint_t *list_head)
+void free_listint(listint_t *head)
 {
 	listint_t *temp;
 
